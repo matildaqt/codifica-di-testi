@@ -1,0 +1,436 @@
+
+ /* GENERALI */
+ 
+ 
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border-width: 0;
+}
+
+
+body {
+
+  font-kerning: normal;
+  line-height: 25px;
+  word-spacing: 5px;
+  overflow: auto;
+}
+
+
+
+
+header {
+
+   width: 100%;
+   height: 120px;
+   text-align: center;
+   background-color: rgb(255, 245, 245);
+   border-bottom: 2px solid #7d0000;
+   padding: 30px 15% 140px 15%;
+}
+
+
+
+#titolo_pagina {
+
+   text-align: center;
+   word-spacing: 5px;
+   color: #7d0000;
+   font-family: 'Megrim';
+}
+
+
+
+#menu{
+
+   padding: 30px;
+ }
+ 
+ 
+ 
+ 
+ nav>ul>li{
+ 
+   display: inline;
+   line-height: 55px;
+   font-size: 18px;
+   margin-right: 15px;
+ }
+ 
+ 
+ 
+ 
+ a.menu {
+ 
+    background-color:  #7d0000;
+    color: rgb(255, 245, 245);
+    padding: 8px;
+ 
+ }
+ 
+ 
+ a.menu:link {
+ 
+    color: white;
+ 
+ }
+ 
+ 
+ a.menu:visited {
+ 
+ color: rgb(255, 245, 245);
+ background-color: #3a0000;;
+ 
+ }
+ 
+ 
+ a.menu:hover {
+   
+   background-color:rgb(255, 245, 245);
+   color: #3a0000;
+   border: 2px solid #3a0000; 
+ }
+ 
+ 
+ #menu_scorr {
+   
+   color:white;
+   background-color: #000000;
+   top: 100px;
+   padding: 22px;
+   position: -webkit-sticky;
+   position: sticky;
+   float: right;
+ 
+ }
+
+ #menu_scorr>ul {
+   
+   list-style: none;
+   width: 7px;
+   
+ 
+ }
+
+
+ #menu_nascosto {
+   
+   display: none;
+ }
+ 
+ 
+
+
+ /* sezione informazioni */
+ 
+ 
+ .informazioni_generali {
+   
+   border: 2px solid #7d0000;
+   background-color: rgb(255, 245, 245);;
+   text-align: center;
+   padding: 22px;
+   margin: 57px;
+}
+
+
+.informazioni_generali>p{
+  
+   border: 2px solid #7d0000;
+   background-color: rgb(255, 245, 245);
+   margin: 22px;
+   text-align: center;
+}
+
+
+#lista_sezioni_codificate>li{
+   margin-top: 22px;
+   margin-left: 22px;
+   list-style-type: number;
+   list-style-position: inside;
+   text-transform: uppercase;
+   font-style: oblique;
+}
+
+
+
+
+/* articoli */
+
+div.spazio_articoli{
+   
+   width: 100%;
+   padding-right: 57px;
+   padding-left: 57px;
+}
+
+
+article.articoli{
+   
+   background-color: #ffffcc;
+   margin-bottom: 30px;
+   margin-top: 44px;
+   width: 100%;
+   padding: 22px;
+}
+
+
+h1.titolo_articolo{
+
+   text-align:center;
+   margin: 22px;
+}
+
+
+
+
+
+
+/* informazioni negli articoli*/
+
+span.elemento
+{
+   text-decoration: underline;
+}
+
+span.informazioni
+{
+   display: none;
+   width:fit-content;
+   padding: 7px;
+   margin: 22px;
+}
+
+
+
+
+/* elementi pagine */ 
+
+
+img.immagini_pagine{
+
+   width: 77%;  
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 77px;
+}
+
+
+table.tabella_pagine{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 44px;
+}
+
+
+th.colonna_pagine{
+
+   border: 2px solid black;
+   text-align: justify;
+   vertical-align: top;
+   width: 50%;
+   padding-left: 7px;
+   padding-right: 7px;
+   padding-bottom: 14px;;
+}
+
+
+
+
+/* elementi per articoli */
+
+
+div.informazioni_articoli{
+
+   margin-top: 77px;
+
+}
+
+
+#lista_eventi{
+   text-transform: uppercase;
+   margin-bottom: 22px;
+   }
+
+
+   
+#info_articoli>div{
+   display: none;
+   }
+
+
+   
+ul.lista_info{
+   list-style: none;
+   vertical-align: top;
+   text-align: left;
+   padding: 5px;
+   margin-top: 12px;
+   margin-bottom: 12px;
+   width:auto;
+}
+
+ul.lista_info>li{
+   padding: 6px;
+}
+
+
+#info_articoli>div>h4{
+
+   text-transform: uppercase;
+   margin-top: 22px;
+}
+
+
+#info_articoli>div.persone_reali_articoli>ul{
+
+   border: 2px solid rgb(161, 200, 234);
+}
+
+
+#info_articoli>div.personaggi_articoli>ul{
+
+   border: 2px solid rgb(109, 223, 255);
+}
+
+
+#info_articoli>div.bibliografie_articoli>ul{
+
+   border: 2px solid rgb(223, 132, 132);
+}
+
+#info_articoli>div.luoghi_articoli>ul{
+
+   border: 2px solid rgb(144, 236, 111);
+}
+
+#info_articoli>div.glossario_articoli>ul{
+
+   border: 2px solid rgb(146, 88, 255);
+}
+
+#info_articoli>div.organizzazioni_articoli>ul{
+
+   border: 2px solid rgb(254, 171, 82);
+}
+
+
+
+/*bottoni eventi*/
+
+button.bottoni_eventi_articoli, button.bottoni_evi{
+
+   border: 2px solid black;
+   background-color: black;
+   color: #ffffcc;
+   margin-right: 22px;
+   width: 100%;
+   margin-bottom: 5px;
+   padding: 5px;
+}
+
+button.bottoni_eventi_articoli:hover,
+button.bottoni_evi:hover{
+
+   border: 2px solid rgb(255, 255, 255);
+   background-color: black;
+   color: #ffffcc;
+   padding: 5px;
+}
+
+
+button[id^='bottone_persone_reali'] {
+   
+   border: 2px solid rgb(161, 200, 234);
+   background-color:rgb(161, 200, 234);
+   color: black;
+ }
+
+ button[id^='bottone_personaggi'] {
+   
+   border: 2px solid rgb(109, 223, 255);
+   background-color:rgb(109, 223, 255);
+   color: black;
+ }
+
+ button[id^='bottone_bibl'] {
+   
+   border: 2px solid rgb(223, 132, 132);;
+   background-color:rgb(223, 132, 132);
+   color: black;
+ }
+ 
+ button[id^='bottone_luoghi'] {
+   
+   border: 2px solid rgb(144, 236, 111);
+   background-color:rgb(144, 236, 111);
+   color: black;
+ }
+  
+ button[id^='bottone_gloss'] {
+   
+   border: 2px solid rgb(146, 88, 255);;
+   background-color:rgb(146, 88, 255);;
+   color: black;
+ }
+
+ button[id^='bottone_org'] {
+   
+   border: 2px solid rgb(254, 171, 82);
+   background-color:rgb(254, 171, 82);
+   color: black;
+ }
+
+ 
+ button[id^='bottone_citazioni'] {
+   
+   border: 2px solid rgb(255, 152, 152);
+   background-color:rgb(255, 152, 152);
+   color: black;
+ }
+
+ 
+ button[id^='bottone_lessico'] {
+   
+   border: 2px solid rgb(255, 245, 64);
+   background-color:rgb(255, 245, 64);
+   color: black;
+ }
+
+  
+ button[id^='bottone_discorso'] {
+   
+   border: 2px solid rgb(239, 222, 222);
+   background-color:rgb(239, 222, 222);
+   color: black;
+ }
+
+
+/* bottoni evento glossario */
+
+button.bottoni_glossario_art {
+   
+   border: 2px solid rgb(146, 88, 255);
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-right: 22px;
+   padding: 7px;
+ }
+ 
+
+ button.bottoni_glossario_art:hover {
+   
+   border: 2px solid black;
+   background-color:  rgb(146, 88, 255);
+ }
+
+ 
+ button.bottoni_glossario_art:focus {
+   
+   border: 2px solid rgb(146, 88, 255);
+   background-color:  rgb(38, 26, 58);
+   color: rgb(146, 88, 255);
+ }
