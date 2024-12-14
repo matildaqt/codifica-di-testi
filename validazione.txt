@@ -1,0 +1,10 @@
+comando: 
+java -cp "Xerces-J-bin.2.12.2-xml-schema-1.1\xerces-2_12_2-xml-schema-1.1\*" dom.Counter -v codifica.xml
+
+risultato:
+codifica.xml: 383;61;1 ms (3297 elems, 7779 attrs, 24923 spaces, 100604 chars)
+
+---
+
+comando:
+java -jar SaxonHE10-3J\saxon-he-10.3.jar -s:codifica.xml -xsl:codifica.xslt -o:index.html
